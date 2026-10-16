@@ -8,5 +8,8 @@ WAV-файлы не хранятся в репозитории (это фраг�
 | `track1_speech.wav` | речь с паузами тишины (например, фрагмент диалога) |
 | `track2_music.wav` | плотная громкая музыка (например, metal) |
 
-Формат: 16-bit PCM, 44.1 kHz, stereo, около 60 секунд.
-Подойдут любые файлы такого формата; имена можно поменять в `run_tests.bat`.
+или поменяйте путь в `run_tests.bat`:
+```
+set SPEECH=input\track1_speech.wav
+set MUSIC=input\track2_music.wav
+```
